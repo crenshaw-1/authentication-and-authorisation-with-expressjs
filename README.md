@@ -1,5 +1,12 @@
 # Authentication vs. Authorization: Analysis on User Deletion Functionality
 
+## Results of implementation
+BEFORE DELETING USER:
+[BEFORE-DELETE](./results/before_delete.png)
+
+AFTER DELETING USER:
+[AFTER-DELETE](./results/after_delete.png)
+
 ## Introduction
 The requirement "This delete user functionality can be done after authentication" raises important security concerns in the application. This is particularly problematic due to the understood concepts of authentication and authorization, and how they differ.
 
