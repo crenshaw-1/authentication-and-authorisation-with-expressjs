@@ -37,4 +37,4 @@ router.post(
 The route above applies both authentication and authorization middleware before allowing the delete operation, ensuring only authorized users (i.e., admins) can perform deletions.
 
 ## Conclusion
-While authentication is crucial for identifying users, it's insufficient for managing sensitive operations like user deletion. Proper authorization must be implemented alongside authentication, to ensure that only users with appropriate permissions can perform such actions (It will also be advised to implement adequate error Handling). This two-step process significantly enhances the security and integrity of the application.
+While authentication is crucial for identifying users, it's insufficient for managing sensitive operations like the one done in this part of the quest (deleting a user). Proper authorization must be implemented alongside authentication, to ensure that only users with appropriate permissions can perform such actions (It will also be advised to implement adequate error Handling). This two-step process significantly enhances the security and integrity of the application.
